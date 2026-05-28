@@ -6,64 +6,48 @@
 ![Python](https://img.shields.io/badge/Python-3.10-blue?style=for-the-badge)
 ![Gradio](https://img.shields.io/badge/Gradio-Chatbot-orange?style=for-the-badge)
 ![Gemini AI](https://img.shields.io/badge/Gemini-AI-red?style=for-the-badge)
-![HuggingFace](https://img.shields.io/badge/HuggingFace-Deployed-yellow?style=for-the-badge)
+![Hugging Face](https://img.shields.io/badge/HuggingFace-Deployed-yellow?style=for-the-badge)
 
-### 🚀 Smart AI Assistant for Farmers & Agriculture Sector
+# 🚀 Smart Agriculture AI Assistant
+
+AI-powered chatbot for agriculture sector using Gemini AI, Semantic Search, and Multiple Agriculture Datasets.
 
 </div>
 
 ---
 
-# 📌 Overview
+# 🌐 Live Links
 
-Agriculture AI Chatbot is an intelligent farming assistant powered by:
+## 🚀 Smart Agriculture Website
 
-- 🤖 Gemini AI
-- 🧠 Sentence Transformers
-- 📊 Agriculture Datasets
-- 🌦 Weather Knowledge
-- 🌱 Crop Recommendation
-- 🧪 Fertilizer Guidance
-- 📈 Market Price Analysis
-- 🚜 Smart Farming Support
-
-The chatbot helps farmers, students, and agriculture enthusiasts get instant agriculture-related information using Artificial Intelligence.
+🔗 https://smart-agriculture-y8c4.onrender.com
 
 ---
 
-# 🔥 Features
+## 🤖 Agriculture AI Chatbot
+
+🔗 https://huggingface.co/spaces/prince12raj/agriculture-ai-chatbot
+
+---
+
+## 💻 GitHub Repository
+
+🔗 https://github.com/prince12raj/Chat-bot-Agriculture
+
+---
+
+# 📌 Features
 
 ✅ Crop Recommendation  
 ✅ Fertilizer Recommendation  
-✅ Agriculture Market Prices  
 ✅ Smart Farming Guidance  
-✅ Weather-related Agriculture Support  
+✅ Agriculture Market Prices  
+✅ Weather Information  
 ✅ Semantic Search AI  
 ✅ Gemini AI Integration  
 ✅ Hugging Face Deployment  
-✅ Gradio Interactive UI  
 ✅ Multi-Dataset Training  
-✅ Real-time AI Responses  
-
----
-
-# 🌐 Live Demo
-
-## 🚀 Agriculture Website
-
-:contentReference[oaicite:0]{index=0}
-
----
-
-# 🤖 AI Chatbot API / Hugging Face
-
-:contentReference[oaicite:1]{index=1}
-
----
-
-# 💻 GitHub Repository
-
-:contentReference[oaicite:2]{index=2}
+✅ Interactive Chat Interface  
 
 ---
 
@@ -71,12 +55,12 @@ The chatbot helps farmers, students, and agriculture enthusiasts get instant agr
 
 | Technology | Usage |
 |---|---|
-| Python | Backend Development |
+| Python | Backend |
 | Gradio | Chatbot UI |
 | Gemini AI | AI Response Generation |
 | Sentence Transformers | Semantic Search |
-| Scikit-learn | Similarity Matching |
-| Pandas | Dataset Processing |
+| Scikit-learn | Similarity Search |
+| Pandas | Data Processing |
 | Hugging Face Spaces | Deployment |
 | Kaggle Datasets | Agriculture Training Data |
 
@@ -94,9 +78,9 @@ ChatBoat For Agriculture
 ├── agriculture_chatbot_dataset.csv
 │
 ├── datasets
-│   ├── crop
-│   ├── fertilizer
 │   ├── weather
+│   ├── fertilizer
+│   ├── crop
 │   ├── smart_farming
 │   └── market
 │
@@ -104,41 +88,6 @@ ChatBoat For Agriculture
 ├── outputs
 └── app
 ```
-
----
-
-# 📊 Datasets Used
-
-## 🌾 Crop Recommendation Dataset
-
-- Soil nutrients
-- NPK values
-- Rainfall
-- Humidity
-- Crop prediction
-
-## 🌦 Weather Dataset
-
-- Temperature
-- Humidity
-- Climate conditions
-
-## 🧪 Fertilizer Dataset
-
-- Fertilizer recommendation
-- Soil condition analysis
-
-## 🚜 Smart Farming Dataset
-
-- Yield prediction
-- Sensor data
-- Smart farming analytics
-
-## 📈 Market Price Dataset
-
-- Crop prices
-- Mandi data
-- Commodity analysis
 
 ---
 
@@ -176,44 +125,6 @@ python app.py
 
 ---
 
-# 🤖 Example Questions
-
-```text
-What is onion market price?
-
-Best fertilizer for rice crop?
-
-Which crop grows in high rainfall?
-
-How to improve crop yield?
-
-Tell me smart farming tips
-
-Weather information for farming
-```
-
----
-
-# 🚀 Deployment
-
-## Hugging Face Deployment
-
-This project is deployed on:
-
-:contentReference[oaicite:3]{index=3}
-
----
-
-# 🔐 Environment Variables
-
-Create `.env` file:
-
-```env
-GEMINI_API_KEY=YOUR_GEMINI_API_KEY
-```
-
----
-
 # 📦 requirements.txt
 
 ```txt
@@ -230,17 +141,80 @@ sentencepiece
 
 ---
 
+# 🔐 Environment Variables
+
+Create `.env` file:
+
+```env
+GEMINI_API_KEY=YOUR_GEMINI_API_KEY
+```
+
+---
+
+# 🤖 Example Questions
+
+```text
+What is onion market price?
+
+Best fertilizer for rice crop?
+
+Which crop grows in high rainfall?
+
+Tell me smart farming tips
+
+How to improve crop yield?
+
+Weather information for farming
+```
+
+---
+
+# 📊 Datasets Used
+
+## 🌾 Crop Recommendation Dataset
+- Soil nutrients
+- NPK values
+- Rainfall prediction
+- Crop recommendation
+
+## 🌦 Weather Dataset
+- Temperature
+- Humidity
+- Climate information
+
+## 🧪 Fertilizer Dataset
+- Fertilizer recommendation
+- Soil condition analysis
+
+## 🚜 Smart Farming Dataset
+- Yield prediction
+- Smart farming analytics
+
+## 📈 Market Price Dataset
+- Crop prices
+- Mandi market analysis
+
+---
+
+# 🚀 Deployment
+
+## Hugging Face Spaces
+
+Deployed on:
+
+https://huggingface.co/spaces/prince12raj/agriculture-ai-chatbot
+
+---
+
 # 🧠 Future Improvements
 
 ✅ Hindi Voice Assistant  
 ✅ WhatsApp Chatbot  
 ✅ Live Weather API  
-✅ Live Market Price API  
 ✅ CNN Plant Disease Detection  
-✅ Farmer Dashboard  
-✅ Mobile App  
-✅ Multilingual Support  
+✅ Mobile Application  
 ✅ RAG + FAISS Vector Database  
+✅ Multilingual Support  
 
 ---
 
@@ -249,8 +223,7 @@ sentencepiece
 ## Prince Raj
 
 B.Tech CSE Student  
-AI & Full Stack Developer  
-Passionate about AI for Agriculture 🚜
+AI & Full Stack Developer 🚀
 
 ---
 
@@ -266,7 +239,7 @@ If you like this project:
 
 # 📜 License
 
-This project is licensed under the MIT License.
+MIT License
 
 ---
 
